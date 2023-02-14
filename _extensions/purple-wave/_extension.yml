@@ -1,0 +1,18 @@
+title: Purple-wave
+author: arnos-stuff
+version: 1.0.0
+quarto-required: ">=1.2.0"
+contributes:
+  formats:
+    revealjs:
+      theme: [white, purplewave.scss]
+      slide-number: c
+      scrollable: true
+      transition: fade
+      navigation-mode: vertical
+      touch: true
+      code-fold: true
+      code-copy: true
+      footer: |
+          <a href="https://data.arnov.dev">data.arnov.dev</a>
+
