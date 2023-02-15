@@ -11,3 +11,8 @@ jobs:
         type: 'zip'
         filename: 'purple-wave.zip'
         exclusions: '*.git* /*node_modules/* .editorconfig template_files/* *.html'
+    - name: Upload Release
+    uses: ncipollo/release-action@v1.12.0
+    with:
+      artifacts: "purple-wave.zip"
+      token: ${{ secrets.GITHUB_TOKEN }}
