@@ -1,7 +1,6 @@
 ---
 title: Untitled
-format:
-  purple-wave-revealjs: default
+format: purple-wave-revealjs
 author: arnos-stuff
 date: last-modified
 ---
